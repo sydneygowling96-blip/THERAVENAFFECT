@@ -33,7 +33,7 @@ export default function About() {
             </p>
             <p className="italic text-ash">
               Affect (verb): to influence or impact, to act on or produce a change
-              in. That's the mission here. Not just to inform you, but to move you.
+              in. That's the mission here. Not just to inform you, but to inspire you.
             </p>
           </div>
         </div>
