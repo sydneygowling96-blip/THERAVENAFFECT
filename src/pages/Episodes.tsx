@@ -36,11 +36,35 @@ export default function Episodes() {
           )}
         </div>
       ) : (
-        <div className="mt-12 flex flex-col items-center gap-6">
+        <div className="mt-12 flex flex-col items-center gap-8">
           <p className="max-w-lg text-lg text-ash">
             New episodes dropping soon &mdash; weekly conversations with guests in the
             arena, plus raw solo episodes on what it takes to grow.
           </p>
+          {(LINKS.spotify || LINKS.youtube) && (
+            <div className="flex flex-wrap items-center justify-center gap-4">
+              {LINKS.spotify && (
+                <a
+                  href={LINKS.spotify}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="bg-ink px-8 py-3 text-sm font-bold uppercase tracking-widest text-paper"
+                >
+                  Follow on Spotify
+                </a>
+              )}
+              {LINKS.youtube && (
+                <a
+                  href={LINKS.youtube}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="border border-ink px-8 py-3 text-sm font-bold uppercase tracking-widest text-ink"
+                >
+                  Subscribe on YouTube
+                </a>
+              )}
+            </div>
+          )}
           <NewsletterSignup />
         </div>
       )}

@@ -1,7 +1,7 @@
 // Central place to plug in real links once they exist.
 export const LINKS = {
-  spotify: "",
-  youtube: "",
+  spotify: "https://open.spotify.com/show/7mvwu08Kp46WlzgyHCmoBi",
+  youtube: "https://www.youtube.com/@THERAVENAFFECT",
   instagram: "",
   tiktok: "",
 };
