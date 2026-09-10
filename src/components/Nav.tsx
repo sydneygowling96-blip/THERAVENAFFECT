@@ -4,6 +4,7 @@ const links = [
   { to: "/", label: "Home" },
   { to: "/episodes", label: "Episodes" },
   { to: "/about", label: "About" },
+  { to: "/contact", label: "Contact" },
 ];
 
 export default function Nav() {

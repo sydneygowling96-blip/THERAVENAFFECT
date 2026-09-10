@@ -7,3 +7,5 @@ export const LINKS = {
 };
 
 export const EPISODES_LIVE = false;
+
+export const CONTACT_EMAIL = "ravenexposure@gmail.com";
