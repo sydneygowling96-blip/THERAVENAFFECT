@@ -5,11 +5,11 @@ export default function About() {
         ABOUT THE SHOW
       </h1>
 
-      <div className="mt-12 grid grid-cols-1 gap-10 md:grid-cols-2 md:items-start">
+      <div className="mt-12 grid grid-cols-1 gap-10 md:grid-cols-2 md:items-stretch">
         <img
           src="/host-photo.jpg"
           alt="Host of The Raven Affect recording in the studio"
-          className="mx-auto aspect-[3/4] w-full max-w-xs rounded-lg object-cover shadow-sm md:mx-0"
+          className="mx-auto h-80 w-full max-w-xs rounded-lg object-cover shadow-sm md:mx-0 md:h-full"
         />
 
         <div className="space-y-6">
