@@ -2,7 +2,7 @@
 export const LINKS = {
   spotify: "https://open.spotify.com/show/7mvwu08Kp46WlzgyHCmoBi",
   youtube: "https://www.youtube.com/@THERAVENAFFECT",
-  instagram: "",
+  instagram: "https://www.instagram.com/theravenaffect",
   tiktok: "",
 };
 
